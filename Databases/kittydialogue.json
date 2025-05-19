@@ -1,0 +1,16 @@
+{
+    "dialogue": {
+        "beg": {
+            "success": [
+                "You beg for money and an elderly woman is feeling nice.",
+                "You beg for money. Someone gives you some just to make you shut up.",
+                "You beg for money. Your imaginary friend somehow comes alive and helps you.",
+                "You beg for money. No one gave you any, but you secretly stole some from a rich man's bag."
+            ],
+            "fail": [
+                "You beg for money, but a member of the mafia decides that today's your unlucky day, so he robs you.",
+                "You beg for money. A gang of thieves gets really pissed off at you and robs you."
+            ]
+        }
+    }
+}
