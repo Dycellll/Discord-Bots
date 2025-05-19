@@ -1695,5 +1695,5 @@ class BotGroup(app_commands.Group):
             color=discord.Color.purple()
         )
         embed.set_thumbnail(url=bot.user.avatar.url)
-        embed.set_footer(text="Hosted on sillydev.co.uk", icon_url="https://avatars.githubusercontent.com/u/117525239?s=280&v=4") 
+        embed.set_footer(text="Hosted on solarhosting.cc", icon_url="https://s3-eu-west-1.amazonaws.com/tpd/logos/63f95c3aea62c7b428faa0a2/0x0.png") 
         await interaction.response.send_message(embed=embed)
