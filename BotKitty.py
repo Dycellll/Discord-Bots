@@ -103,7 +103,7 @@ async def add_cogs():
     await setup_reaction_roles(bot, "kittydatabase.json", emojisList, ["rr"])
     await setup_suggestion(bot)
     await setup_music_commands(bot)
-    await setup_economy(bot, 1315433980258029588, "kittydatabase.json")
+    await setup_economy(bot)
 
 @bot.event
 async def on_ready(): 

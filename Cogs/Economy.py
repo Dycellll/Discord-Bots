@@ -8,14 +8,14 @@ class EconomyCog(commands.Cog):
         self.beg_cooldowns = {}
         self.beg_cooldown_time = 30
 
-    def read_json(self, file='economy.json'):
+    def read_json(self, file='kittydatabase.json'):
         file_path = os.path.join('Databases', file)
         if not os.path.exists(file_path):
             self.write_json({}, file)
         with open(file_path, 'r', encoding='utf-8') as jsonfile:
             return json.load(jsonfile)
 
-    def write_json(self, data, file='economy.json', indent=4):
+    def write_json(self, data, file='kittydatabase.json', indent=4):
         file_path = os.path.join('Databases', file)
         with open(file_path, 'w', encoding='utf-8') as jsonfile:
             json.dump(data, jsonfile, indent=indent)
