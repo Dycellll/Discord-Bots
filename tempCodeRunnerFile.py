@@ -1,0 +1,1 @@
+    await ctx.send(f"ID {id} belongs to {user.name} aka {user.display_name} mentioned as {user.mention}.")
